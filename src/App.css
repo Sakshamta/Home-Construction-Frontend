@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.p80{
+    margin : 90px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4{
+    text-transform: uppercase;
+    color: rgb(97, 97, 97);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h5{
+    color: #696969;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+       
+/*------------------- 
+------BUTTONS------- */
+
+.add-btn{
+    margin:0 48%;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-btn{
+    margin:0 52%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.savechange-btn{
+    width:125px;
+    margin: 0 45%;
 }
+
+
+
+/*----------------------------
+-----------header------------*/
+
+.header .navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: #17a2b8;    
+}
+
+.header .navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+/*---------filter part------------*/
+
+
+.floor button{
+    float: right;
+}
+
+.floor .form-control:focus,
+.add-house .form-control:focus,
+.location .form-control:focus{
+    border-color:grey;
+    outline: none;
+    box-shadow: none;
+}
+
+.house-list .jCrwJV{
+    width:100%;
+}
+
+.add-house .form-control{
+width: 50%;
+margin-left: 285px;
+}
+
+
+
+/*----------------------------
+------not found section -----*/
+.not-found{
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%) ;
+  -webkit-transform:translate(-50%, -50%) ;
+  -moz-transform:translate(-50%, -50%) ;
+  -ms-transform:translate(-50%, -50%) ;
+  -o-transform:translate(-50%, -50%) ;
+  position: absolute;
+}
+
+
+/*------------------------
+---------list------------*/
+.card{
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul li {
+    color: grey;
+}
+
+.isSold{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+
+
